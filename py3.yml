@@ -1,56 +1,116 @@
 name: py3
 channels:
-  - defaults
   - conda-forge
-  - anaconda
-  - pytorch
-  - fastai
+  #- fastai
+  #- pytorch
 dependencies:
-  - python=3.7.3
+  - python=3.10.4
   - pip
+  - pipenv
+  - pytest
+  - ipython
   - ipykernel
   - ipyparallel
+  - pipdeptree
+  - pip-tools
+  - python-dotenv
+  - altair
+  - arrow
   - beautifulsoup4
   - bokeh
   - boruta_py
   - boto3
-  - caffe
+  #- caffe
   #- caffe-gpu
   - catboost
-  - cudatoolkit
+  - category_encoders
+  #- cudatoolkit
+  - curlify
   - dask
+  - deap
+  - docker-py
+  - dtreeviz
+  - elasticsearch
   - eli5
-  - fastai
+  #- fastai
+  - fastparquet
+  - ffmpeg-python
+  - ffn
+  - flashtext
   - flask
+  #- folium
   - gensim
+  - graph-tool
+  - gym
   - h2o
-  - keras
-  - keras-gpu
+  - hyperopt
+  - imbalanced-learn
+  - ipympl
+  - lifelines
   - lightgbm
+  - mahotas
   - matplotlib
+  - networkx
   - nltk
+  - numba
   - numpy
-  - opencv=4.1.0
+  - opencv
   - pandas
+  - patsy
+  - pillow
   - plotly
+  - ppscore
+  - psycopg2
+  - pyarrow
+  - pyautogui
+  - pycaret
+  - pydot
+  - pymssql
+  - pyshp
   - pyspark
-  - pytorch
+  #- python-geohash
+  #- pytorch
+  - requests
+  - requests-aws4auth
+  #- scikit-garden
+  - scikit-image
   - scikit-learn
+  - scikit-optimize
   - scipy
   - scrapy
   - seaborn
+  - selenium
+  - setuptools
   - shap
   - spacy
+  - sqlalchemy
   - statsmodels
-  - swifter
+  - sweetviz
   - tensorflow
-  - tensorflow-gpu
-  - theano
+  #- tensorflow-gpu
+  - textblob
+  #- theano
+  - torpy
   - tpot
+  - tqdm
+  - tweepy
+  - wget
+  - wxpython
   - xgboost
+  - xlrd
   - pip:
-      #- auto-sklearn
+      - autokeras
+      - auto-sklearn
+      - backtrader
+      - bt
       - cufflinks
+      - delorean
+      - feature-engine
       #- mlbox
+      - ortools
+      - pm4py
+      - pytil
+      - sklearn-deap
+      - ta
+      - texthero
       #- tfx
-      - wget
